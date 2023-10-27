@@ -7,7 +7,7 @@ import datetime as dt
 
 data = pd.read_csv("data/mod.csv", sep=";")
 
-st.title("A very good visualisation application for everything around gazoline in France")
+st.title("Viewl, a gas station finder, and more")
 option = st.selectbox(
      'How would you like to visualise the application ?',
      ('Administrator', 'User'))
